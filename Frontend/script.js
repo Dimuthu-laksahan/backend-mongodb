@@ -3,7 +3,7 @@ const employeeForm = document.getElementById("employeeForm");
 const employeeTable = document
 .getElementById("employeeTable")
 .getElementsByTagName("tbody")[0];
-const apiBaseUrl = "http://localhost:8080/api/employees";
+const apiBaseUrl = "https://web-production-31eef.up.railway.app/api/employees";
 function fetchEmployees() {
 fetch(apiBaseUrl)
 .then((response) => response.json())
